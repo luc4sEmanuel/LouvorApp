@@ -16,7 +16,7 @@ class CultosScreen extends StatelessWidget {
         title: Consumer<CultoManager>(
           builder: (_, sermonManager, __){
             if(sermonManager.search.isEmpty){
-              return const Text('Cultos');
+              return const Text('Músicas');
             } else {
               return LayoutBuilder(
                 builder: (_, constraints){
@@ -31,7 +31,7 @@ class CultosScreen extends StatelessWidget {
                     child: Container(
                         width: constraints.biggest.width,
                         child: Text(
-                          'Cultos: ${sermonManager.search}',
+                          'Músicas: ${sermonManager.search}',
                           textAlign: TextAlign.center,
                         )
                     ),

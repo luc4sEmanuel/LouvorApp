@@ -19,7 +19,7 @@ class CultoScreen extends StatelessWidget {
         value: sermon,
     child: Scaffold(
       appBar: AppBar(
-        title: sermon != null ? Text("Culto") : Text(sermon.titulo),
+        title: sermon != null ? Text("Música") : Text(sermon.titulo),
         centerTitle: true,
       ),
       backgroundColor: Colors.white,
@@ -36,9 +36,9 @@ class CultoScreen extends StatelessWidget {
                       initialValue: sermon.titulo,
                       onSaved: (titulo) => sermon.titulo = titulo,
                       decoration: const InputDecoration(
-                        hintText: 'Título',
+                        hintText: 'Nome',
                         border: InputBorder.none,
-                        labelText: 'Título',
+                        labelText: 'Nome',
                       ),
                       style: TextStyle(
                           fontSize: 30,
@@ -50,9 +50,9 @@ class CultoScreen extends StatelessWidget {
                       initialValue: sermon.texto_base,
                       onSaved: (tb) => sermon.texto_base = tb,
                       decoration: const InputDecoration(
-                        hintText: 'Texto-base',
+                        hintText: 'Artista',
                         border: InputBorder.none,
-                        labelText: 'Texto-base',
+                        labelText: 'Artista',
                       ),
                       style: TextStyle(
                         fontSize: 18,
@@ -67,9 +67,9 @@ class CultoScreen extends StatelessWidget {
                       initialValue: sermon.tags,
                       onSaved: (tags) => sermon.tags = tags,
                       decoration: const InputDecoration(
-                        hintText: 'Tags',
+                        hintText: 'Letra',
                         border: InputBorder.none,
-                        labelText: 'Tags',
+                        labelText: 'Letra',
                       ),
                       style: TextStyle(
                         color: Colors.grey[600],
@@ -83,9 +83,9 @@ class CultoScreen extends StatelessWidget {
                       initialValue: sermon.tema,
                       onSaved: (tema) => sermon.tema = tema,
                       decoration: const InputDecoration(
-                        hintText: 'Tema',
+                        hintText: 'Tom',
                         border: InputBorder.none,
-                        labelText: 'Tema',
+                        labelText: 'Tom',
                       ),
                       style: const TextStyle(
                           fontSize: 16
@@ -100,8 +100,8 @@ class CultoScreen extends StatelessWidget {
                     decoration: InputDecoration(
                       border: const OutlineInputBorder(),
                       filled: true,
-                      hintText: 'Insira os pontos principais',
-                      labelText: 'Conteúdo',
+                      hintText: 'Cifra',
+                      labelText: 'Cifra',
                     ),
                     onChanged: (value) {
                       sermon.texto = value;

@@ -37,7 +37,7 @@ class CustomDrawer extends StatelessWidget {
               ),
               DrawerTile(
                 iconData: Icons.library_books,
-                title: 'Cultos',
+                title: 'Repertório',
                 page: 1,
               ),
             ],
