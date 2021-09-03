@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280051510181",
+    "project_id": "louvor-app",
+    "storage_bucket": "louvor-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280051510181:android:af64cc10e02ec329aad64c",
+        "android_client_info": {
+          "package_name": "br.com.comunidadeunidade.louvor_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280051510181-obuqibkonr62g432b30trevc1njb91tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxZb2b7MBl8jcLCkqk-62DtdAW3qJbaIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280051510181-obuqibkonr62g432b30trevc1njb91tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
